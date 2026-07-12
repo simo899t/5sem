@@ -1,10 +1,11 @@
-#import "../../../../temp/temp.typ": *
-
+#import "@local/tempst:0.1.0": *
 #show: note.with(
-  title: "Lecture 1: Introduction",
-  course: "AI510 - Cybersecurity and Innovation",
-  date: "Fall - 2026"
+  title:         "Lecture 1: Introduction",
+  course:        "AI510 - Cybersecurity and Innovation",
+  author:        "Simon Holm",
+  date:          "Fall - 2026",
+  outline:       true,
+  outline-depth: 2,
 )
 
-// content start here
-
+= First Section
